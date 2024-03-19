@@ -12,7 +12,7 @@ pip install chardet
 And run script.py
 ```bash
 cd path/txt-parser
-python3 script.py
+python3 parser.py
 ```
 
 The script will request input data in the format: 
