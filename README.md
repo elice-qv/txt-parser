@@ -9,10 +9,10 @@ Enjoy and if you have a new idea just create issue or fork
 ``bash
 pip install chardet
 ```
-запустите script.py в cmd/powershell/terminal находясь в папке со скриптом
+запустите parser.py в cmd/powershell/terminal находясь в папке со скриптом
 ``bash
-cd path/txt-синтаксический
-анализатор python3 parser.py
+cd path/txt-parser
+python3 parser.py
 ```
 
 Скрипт запросит входные данные в формате:
