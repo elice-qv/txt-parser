@@ -34,9 +34,9 @@ def search_and_collect_data_any_file(search_text, root_directory, output_file='d
 
 
 def main():
-    search_text = input("Введите текст для поиска: ")
-    file_name = input("Введите имя файла для поиска (оставьте пустым для проверки всех файлов): ")
-    root_directory = input("Введите путь к корневой папке (оставьте пустым для текущей директории): ")
+    search_text = input("Enter the key words: ")
+    file_name = input("Enter file name (empty for choose all files): ")
+    root_directory = input("Enter root directory: ")
     root_directory = root_directory or '.'
 
     if file_name:
