@@ -1,7 +1,7 @@
 # Friendly use
 ## About
 
-Simple python parser with decode any symbols. If you want to check logs in many folders it yor choice
+Simple python parser with decode any symbols. If you want to check logs or any text files in many folders it your choice
 Enjoy and if you have a new idea just create issue or fork
 
 ## Запуск скрипта (scroll down for english ver)
