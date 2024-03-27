@@ -9,7 +9,7 @@ Enjoy and if you have a new idea just create issue or fork
 ## Запуск скрипта (scroll down for english ver)
 Зависимости
 ``bash
-pip install chardet
+pip install -r requirements.txt
 ``
 запустите parser.py в cmd/powershell/terminal находясь в папке со скриптом
 ``bash
