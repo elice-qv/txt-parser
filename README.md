@@ -1,5 +1,7 @@
 # Friendly use
 ## About
+Ctrl+F по всем файлам в указанной директории/ях
+Поиск по ключевым словам и расшифровка данных
 
 Simple python parser with decode any symbols. If you want to check logs or any text files in many folders it your choice
 Enjoy and if you have a new idea just create issue or fork
@@ -8,17 +10,17 @@ Enjoy and if you have a new idea just create issue or fork
 Зависимости
 ``bash
 pip install chardet
-```
+``
 запустите parser.py в cmd/powershell/terminal находясь в папке со скриптом
 ``bash
 cd path/txt-parser
 python3 parser.py
-```
+``
 
 Скрипт запросит входные данные в формате:
 
+UPD теперь скрипт берет названия файлов списком из файла files.txt, если таковой отсутствует, то ищет по всем файлам включая другие форматы
 - Enter the key words: Текст для поиска.
-- Enter file name (empty for choose all files): Имя файла, в котором нужно искать слова (вы можете оставить поле пустым, просто нажав Enter, тогда поиск будет выполнен по всем файлам)
 - Enter root directory: путь к корневому каталогу для поиска.
 
 Скрипт проанализирует файл с указанным именем и создаст файл в корневой папке со скриптом data.txt с расшифрованными данными (если они были зашифрованы)
