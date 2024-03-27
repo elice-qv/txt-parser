@@ -36,7 +36,7 @@ def search_in_files(search_text, file_names, root_directory, output_file='data.t
                                         if i + j < len(lines):
                                             output.write(lines[i + j])
                                     output.write("--------------------------------------------------------------------------------\n\n")
-                                    break  # Остановиться после первого найденного совпадения в файле
+                                    break
                         processed_files_count += 1
                         print(f"Обработано файлов: {processed_files_count}. Последний обработанный файл: {file_path}")
                     except Exception as e:
